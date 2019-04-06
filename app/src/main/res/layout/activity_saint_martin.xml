@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.personal.radiantchittagong.SaintMartin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="420dp"
+            android:layout_height="200dp"
+            android:background="@drawable/saint_martin_main"
+            android:id="@+id/saint_main"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/saint_main"
+            android:padding="10dp">
+
+            <Button
+                android:layout_width="420dp"
+                android:layout_height="70dp"
+                android:id="@+id/history"
+                android:background="@drawable/history"
+                android:layout_marginBottom="10dp"
+                android:onClick="History"/>
+            <Button
+                android:layout_width="420dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/history"
+                android:id="@+id/tranportation"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/transportation"
+                android:onClick="transport"
+                />
+            <Button
+                android:layout_width="420dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/tranportation"
+                android:id="@+id/accomodation"
+                android:layout_marginBottom="10dp"
+                android:background = "@drawable/hotels"
+                android:onClick="hotels"
+                />
+            <Button
+                android:layout_width="420dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/accomodation"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/shops"
+                android:background="@drawable/shops"
+                android:onClick="shops"/>
+            <Button
+                android:layout_width="420dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/shops"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/placestogo"
+                android:background="@drawable/placestogo"
+                android:onClick="placeTogo"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

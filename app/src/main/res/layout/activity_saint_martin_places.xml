@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal.radiantchittagong.SaintMartinPlaces">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:background="@drawable/cheradwip"
+        android:id="@+id/bt1"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cheradip2"
+        android:id="@+id/bt2"
+        android:layout_below="@+id/bt1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chera Dwip"
+        android:textSize="22dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/text2"
+        android:layout_below="@+id/bt2"
+        />
+
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:background="@drawable/mainbeach"
+        android:id="@+id/bt3"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_below="@id/text2"
+        />
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:background="@drawable/mainbeach_"
+            android:id="@+id/bt4"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_below="@id/bt3"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main Beach"
+            android:textSize="22dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/text3"
+            android:layout_below="@+id/bt4"
+            />
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:background="@drawable/nafriver"
+            android:id="@+id/bt5"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_below="@id/text3"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naf river"
+        android:textSize="22dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/text4"
+        android:layout_below="@+id/bt5"
+        />
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal.radiantchittagong.Visited">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="#4e25c9"
+            android:layout_marginTop="10dp"
+            android:id="@+id/text1"
+            android:layout_centerHorizontal="true"
+            android:text="Make your visit list"/>
+        <EditText
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:hint="Enter the place"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/text1"
+            android:id="@+id/et1"/>
+        <EditText
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:hint="Notes"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/et1"
+            android:id="@+id/et2"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Add"
+            android:id="@+id/addbtn"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/et2"
+            android:background="@drawable/loginbutton"
+            android:onClick="insertItem"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Show all"
+            android:id="@+id/showbtn"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/addbtn"
+            android:background="@drawable/loginbutton"
+            android:onClick="showAllItems"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/l1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/showbtn"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal.radiantchittagong.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:layout_width="1000dp"
+            android:layout_height="101dp"
+            android:id="@+id/coxbazar"
+            android:textColor="#ffffff"
+            android:text="Cox's Bazar"
+            android:background="#932424"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:onClick="coxBazar"
+            />
+        <Button
+            android:layout_width="1000dp"
+            android:layout_height="101dp"
+            android:id="@+id/bandarban"
+            android:textColor="#ffffff"
+            android:text="Bandarban"
+            android:layout_below="@+id/coxbazar"
+            android:background="#a42727"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:onClick="Bandarban"
+            />
+
+        <Button
+            android:layout_width="1000dp"
+            android:layout_height="101dp"
+            android:id="@+id/rangamati"
+            android:textColor="#ffffff"
+            android:text="Rangamati"
+            android:layout_below="@+id/bandarban"
+            android:background="#b72d2d"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:onClick="Rangamati"
+            />
+        <Button
+            android:layout_width="1000dp"
+            android:layout_height="104dp"
+            android:id="@+id/saintsmartin"
+            android:textColor="#ffffff"
+            android:text="Saint's Martin"
+            android:layout_below="@+id/rangamati"
+            android:background="#c73131"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:onClick="SaintMartin"
+            />
+        <Button
+            android:layout_width="1000dp"
+            android:layout_height="106dp"
+            android:id="@+id/visit"
+            android:textColor="#ffffff"
+            android:text="Make your List"
+            android:layout_below="@+id/saintsmartin"
+            android:background="#e13838"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:onClick="visit"
+            />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

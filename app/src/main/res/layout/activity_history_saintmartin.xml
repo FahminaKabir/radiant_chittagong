@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/saint_martin_history"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textSaintHis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="Ancient relics date the island's first settlers, probably Ciboney Indians (a subgroup of Arawaks), back to 3,500 years ago.Then another group of Arawaks migrated from South America's Orinoco basin around 800 A.D.Because of St. Martin's salt-pans they called it 'Soualiga' or 'Land of Salt.' Mainly a farming and fishing society, the Arawaks lived in villages of straw-roofed buildings which were strong enough to resist hurricanes. Their tranquil civilization valued artistic and spiritual pursuits."
+        android:textColor="#cad8e7"
+        android:textSize="23sp"
+        android:textStyle="italic" />
+</RelativeLayout>
+
+</ScrollView>

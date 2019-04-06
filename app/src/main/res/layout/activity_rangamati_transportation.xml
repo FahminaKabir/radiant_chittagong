@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal.radiantchittagong.RangamatiTransportation">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="420dp"
+            android:layout_height="230dp"
+            android:id="@+id/cox_transportation_pic"
+            android:background="@drawable/rangamati_transportation"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@id/cox_transportation_pic"
+            android:text="Dhaka to Rangamati by Bus :
+Distance from Dhaka to Rangamati is 304 kms and it takes atleast 8 hours to reach Rangamati. Buses leave for Rangamati from Sayedabad, Fakirapul and motijheel till midnight.
+
+Dhaka to Rangamati via Chittagong by Air :
+There is no direct flight services available from Dhaka toRangamati. It is only possible to travel to Chittagong bt air then take a bus to Rangamati or private car. Flight fare starts from BDT 5k.
+
+It is possiv=ble to take a direct train to Chittagong. It takes approximately 5 hours to reach Chittagong.
+
+Chittagong to Rangamati :
+There is quite a few bus services to Rangamati from Chittagong. It rakes around 2 hours to reach Rangamati. Tickets are available at Muradpur, Oxygen mor, Arambag etc bus stands. There are buses which are cheaper but stop anywhere to take passengers. These type of buses are not recommended.
+
+Inside Rangamati :
+There are local buses available to nearby places.
+It is possible to hire cars to travel to places inside the district.
+The most convenient and cheapest transportation service to travel around in CNG or jeeps called chander gari. They can be reserved or shared. Shared ride is very economical, starts from BDT 15 per person while reserved costs from BDT 50 depending on distance of travel.
+"
+            android:textSize="9pt"
+            android:textColor="@color/black"
+            />
+    </RelativeLayout>
+
+</ScrollView>

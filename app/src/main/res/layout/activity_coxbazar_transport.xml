@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal.radiantchittagong.CoxbazarTransport">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="420dp"
+            android:layout_height="230dp"
+            android:id="@+id/cox_transportation_pic"
+            android:background="@drawable/cox_transportation_pic"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cox_transportation_pic"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="Air Transport :
+Cox's Bazar is connected with capital Dhaka by United Air, Biman, GMG and the Royal Bengal.By Air it is 30 minutes journey from the domestic terminal of Shahjalal International Airport at Dhaka.
+
+Road Transport :
+Road transport in Bangladesh is predominantly private sector affair. Rates are among the cheapest in the world. Express and non-stop services are available to principal towns and cities from Gabtoli, Saidabad and Mohakhali bus terminals in Dhaka. The Bangladesh Road Transport Corporation (BRTC) also maintains a country-wide network of bus services.
+Railway Transport :
+The Rail Way Service is also available from Dhaka Kamlapur Rail Station to Chittagong and then by bus or car to Cox's Bazar.There is no rail connection up to Cox's Bazar but it's a main rail route to Chittagong of Bangladesh railway.
+"
+            android:textSize="9pt"/>
+    </RelativeLayout>
+
+</ScrollView>

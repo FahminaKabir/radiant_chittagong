@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.example.personal.radiantchittagong.About">
+
+    <TextView
+        android:layout_width="358dp"
+        android:layout_height="485dp"
+        android:background="#e43636"
+        android:text="Chittagong has been a seaport since ancient times.\nThe most popular natural wonders of Chittagong are cox's bazaar, Saint Martin Island, Bandarban, Naval Beach and Rangamati.\nThere are more places that you may not want to miss the chance to visit whenever you get.\nThose are Bhatiary hill, Meghla, Sitakunda Eco park, dula hajara safari park, foys lake, himchori, inani.\nSome of the places are given here with the guidelines.\n
+Wish you a happy trip to chittagong.\n\n
+- Iffatun Nessa and Fahmina Kabir
+  Developers of Radiant Chittagong (app)"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic"
+
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+</android.support.constraint.ConstraintLayout>

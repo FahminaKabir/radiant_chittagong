@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal.radiantchittagong.SaintMartinTransport">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="420dp"
+            android:layout_height="230dp"
+            android:id="@+id/saints_transportation_pic"
+            android:background="@drawable/saint_transportation_pic"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@id/saints_transportation_pic"
+            android:textColor="@color/black"
+            android:text="Public transportation is limited to small busses that run between major areas.  There is no schedule or bus stop, you just watch for a bus (minivan) to approach and flag them down.  The cost is either $1 or $1.50 (try to have exact change) depending on how far you go.  Sometimes you will have to switch busses so make sure to ask the bus driver when you get on.  There will be a sign in the window telling you the beginning and ending points of the route.  When you are ready to get off just tell the driver.  Busses can take a little longer because they will stop to pick up a passenger then drive 20 feet to pick up or drop off someone else.
+
+Examples:  If you want to go from Maho to Simpson Bay you would catch a bus headed to Phillipsburg and get off near where you want to go.  To go from Marigot to Simpson Bay you take a bus headed for Phillipsburg get off at the 'T' intersection (look for a Kentucky Fried Chicken) and wait for a bus headed to Mullet Bay.
+
+Note: The busses do not run much at night and almost never past 11 PM
+Taxis are plentiful but can be expensive.  You can get a cab at the Airport, most hotels and timeshare buildings as well as casinos and restaurant areas.  Prices are set by the government and are determined by how far you go.  Cabs can charge more for luggage, extra persons and and surcharge at night.  Hotels and restaurants will call a cab for you just make sure to wait for the cab number they give you.
+"
+
+            android:textSize="9pt"
+            />
+    </RelativeLayout>
+
+</ScrollView>

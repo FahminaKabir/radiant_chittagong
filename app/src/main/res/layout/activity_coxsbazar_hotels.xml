@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.personal.radiantchittagong.CoxsbazarHotels">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:background="@drawable/royaltulip"
+                android:id="@+id/button1"
+                android:text="Royal Tulip Sea Pearl Beach Resort and Spa"
+                android:onClick="hotelhill"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button1"
+
+                android:id="@+id/info1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv1"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:background="@drawable/coxtoday"
+                android:id="@+id/button2"
+                android:text="The Cox Today Limited"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@+id/info1"
+                android:onClick="Plaza"
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button2"
+                android:id="@+id/info2"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv2"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:background="@drawable/bestwestern"
+                android:id="@+id/button3"
+                android:text="Best Western"
+                android:onClick="got"
+                android:textColor="@color/white"
+                android:layout_below="@+id/info2"
+                android:textStyle="bold"
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button3"
+                android:id="@+id/info3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv3"/>
+            </RelativeLayout>
+            <Button
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:background="@drawable/whiteorchid"
+                android:text="White Orchid"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/button4"
+                android:layout_below="@+id/info3"
+                android:onClick="greenpeak"
+
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button4"
+                android:id="@+id/info4">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv4"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

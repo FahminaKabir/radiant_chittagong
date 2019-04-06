@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal.radiantchittagong.CoxbazarShops">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:text="Hotel Motel Zone"
+            android:textSize="20dp"
+            android:background="#107417"
+            android:id="@+id/hotelMotel"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="hotelmotel"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/text1"
+            android:layout_below="@+id/hotelMotel"
+            />
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:text="Burmese Shops"
+            android:textSize="20dp"
+            android:background="#107417"
+            android:id="@+id/burmese"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="burmese"
+            android:layout_below="@+id/text1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/text2"
+            android:layout_below="@+id/burmese"
+            />
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:text="Ramu"
+            android:textSize="20dp"
+            android:background="#107417"
+            android:id="@+id/ramu"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="ramu"
+            android:layout_below="@id/text2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/text3"
+            android:layout_below="@+id/ramu"
+            />
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:text="Restaurant"
+            android:textSize="20dp"
+            android:background="#107417"
+            android:id="@+id/rest"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_below="@+id/text3"
+            android:onClick="bb1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/text"
+            android:layout_below="@+id/rest"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

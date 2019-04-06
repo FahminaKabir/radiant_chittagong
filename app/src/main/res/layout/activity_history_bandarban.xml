@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bandarban_history">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textBandanbanHis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="In the early days of 15th century, Arakanese kingdom expended its territories to the Chittagong area of Bengal. After the victory of Arakan on Burma’s Pegu kingdom in 1599 AD, the Arakanese king Mong Raja Gree appointed a Prince of Pegu as the governor of newly established Bohmong Htaung (Circle) by giving the title of “Bohmong” Raja.Bandarban Hill District was once called Bohmong Htaung since the Arakanese rule. Once Bohmong Htaung was ruled by Bohmong Rajas who were the subordinates to the Arakanese kings."
+        android:textColor="#cad8e7"
+        android:textSize="23sp"
+        android:textStyle="italic" />
+    </RelativeLayout>
+</ScrollView>

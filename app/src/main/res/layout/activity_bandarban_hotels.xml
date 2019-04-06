@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal.radiantchittagong.BandarbanHotels">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:text="Hotel Hill View Bandarban"
+            android:textSize="20dp"
+            android:background="#107417"
+            android:id="@+id/hotelhill"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="hotelhill"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/text1"
+            android:layout_below="@+id/hotelhill"
+            />
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:text="Hotel Plaza Bandarban"
+            android:textSize="20dp"
+            android:background="#107417"
+            android:id="@+id/plaza"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="Plaza"
+            android:layout_below="@+id/text1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/text2"
+            android:layout_below="@+id/plaza"
+            />
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:text="Green Peak Resorts Bandarban"
+            android:textSize="20dp"
+            android:background="#107417"
+            android:id="@+id/greenpeak"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="greenpeak"
+            android:layout_below="@id/text2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/text3"
+            android:layout_below="@+id/greenpeak"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

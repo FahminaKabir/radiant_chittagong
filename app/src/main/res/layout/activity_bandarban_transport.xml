@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal.radiantchittagong.BandarbanTransport">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="420dp"
+            android:layout_height="230dp"
+            android:id="@+id/cox_transportation_pic"
+            android:background="@drawable/bandarban_transportation"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@id/cox_transportation_pic"
+            android:textColor="@color/black"
+            android:text="Dhaka to Bandarban is a route spread over 376.0Km road way. 2 leading bus operators  includes Hanif Enterprise and Saintmartin Paribahan. These operators provide Hino 1J (NON AC), Hino AK1J (NON AC), Hino 1J Plus (AC) and Hyundai Universal Premium branded bus services. With an average duration of 10-11 hours journey, depending on the road condition, bus ticket price ranges for this route from 620 BDT to 1500 BDT, depending on the bus operator type.
+Or tourists can take a bus ( or train) from Dhaka to Chittagong. Then take another bus to Bandarban. This way tourists don’t have travel for 11 hours straight.
+From the main bus stand, destinations include Chittagong (Tk 110, three hours, 5.45am to 6pm), Cox’s Bazar (Tk 170, three hours, 7.30am to 5pm) and Dhaka (non-AC/AC Tk 620/950, nine hours, 10am, 9.30pm and 10pm).
+
+Jeep Stand :
+There’s a jeep stand just down from the main bus stand where you can hire jeeps, known here as chander gari, to places such as Ruma Bazar (return/overnight Tk 3000/4500, two hours each way).
+
+Ruma Bus Stand :
+From Ruma bus stand buses go to Ruma Bazar (Tk 100, three hours, every two hours from 8am).
+
+Rangamati Bus Stand :
+Rangamati (Tk 110, four hours, 8am and 2pm) buses leave from the Rangamati bus stand.
+"
+            android:textSize="9pt"/>
+    </RelativeLayout>
+
+</ScrollView>

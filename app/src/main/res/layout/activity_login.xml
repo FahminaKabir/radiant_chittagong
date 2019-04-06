@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3d4956"
+    android:gravity="center"
+    tools:context="com.example.personal.radiantchittagong.Login">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="User Name"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/name"
+
+            />
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:id="@+id/username"
+            android:layout_toRightOf="@+id/name"
+            android:paddingLeft="10dp"
+            android:textColor="#ffffff"
+            android:hint="Enter Your Name"
+            android:textColorHint="#acaaaa"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Password"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/passwordtv"
+            android:layout_below="@+id/name"
+            />
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:id="@+id/password"
+            android:layout_toRightOf="@+id/passwordtv"
+            android:layout_below="@+id/name"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:hint="********"
+            android:password="true"
+            android:textColorHint="#acaaaa"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordtv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            >
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/login"
+                android:text="Log In"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:background="@drawable/loginbutton"
+                android:shadowColor="#ffffff"
+                android:onClick="EnterPassword"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/signup"
+                android:layout_below="@+id/login"
+                android:layout_marginTop="10dp"
+                android:text="Sign Up"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:background="@drawable/loginbutton"
+                android:shadowColor="#ffffff"
+                android:onClick="insertItem"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

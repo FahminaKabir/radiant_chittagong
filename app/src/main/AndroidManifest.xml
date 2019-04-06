@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.personal.radiantchittagong">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SaintMartin" />
+        <activity android:name=".Bandarban" />
+        <activity android:name=".Rangamati" />
+        <activity android:name=".CoxsbazarHistory" />
+        <activity android:name=".BandarbanHistory" />
+        <activity android:name=".RangamatiHistory" />
+        <activity android:name=".SaintmartinHistory" />
+        <activity android:name=".CoxbazarShops" />
+        <activity android:name=".CoxbazarPlaces" />
+        <activity android:name=".BandarbanPlaces" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".CoxBazar_mainpage" />
+        <activity android:name=".RangamatiHotels" />
+        <activity android:name=".RangamatiTransportation" />
+        <activity android:name=".BandarbanHotels" />
+        <activity android:name=".BandarbanTransport" />
+        <activity android:name=".BandarbanShops" />
+        <activity android:name=".RangamatiPlaces" />
+        <activity android:name=".RangamatiShops" />
+        <activity android:name=".SaintMartinShops" />
+        <activity android:name=".SaintMartinPlaces" />
+        <activity android:name=".SaintMartinHotels" />
+        <activity android:name=".CoxsbazarHotels" />
+        <activity android:name=".CoxbazarTransport" />
+        <activity android:name=".SaintMartinTransport" />
+        <activity android:name=".Maps" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBNg6IlUyRHEr6IZ0sNwjQLhbvtYziTIvY" />
+
+        <activity android:name=".Visited" />
+        <activity
+            android:name=".NavActivity"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".About"></activity>
+    </application>
+
+</manifest>
